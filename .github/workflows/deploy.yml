@@ -1,0 +1,13 @@
+name: Desplegar web en S3 y Cloudfront
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ejemplo
+        run: echo "hola mundo"
